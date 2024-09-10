@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryservicosvitibrasil",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bf5e27a4-8eb1-4c2a-b8f8-d79a422c5cbb",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
