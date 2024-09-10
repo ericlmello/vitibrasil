@@ -1,0 +1,23 @@
+{
+	"name": "datasetdestinovitibrasil",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "servicovinculadoDataLakevitibrasil",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Ouro",
+				"fileSystem": "containervitibrasildatalake"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
